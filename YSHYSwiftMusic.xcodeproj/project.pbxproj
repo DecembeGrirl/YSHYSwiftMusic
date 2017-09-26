@@ -1,0 +1,751 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BF2250518E02C5BB77E7B73 /* libPods-YSHYSwiftMusic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 691C3D20E873F561B0F58F83 /* libPods-YSHYSwiftMusic.a */; };
+		E546974F1EA05DDF00945107 /* PlayMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E546974E1EA05DDF00945107 /* PlayMusicViewController.swift */; };
+		E54697511EA05F8E00945107 /* YSHYFragmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54697501EA05F8E00945107 /* YSHYFragmentView.swift */; };
+		E54697571EA06B4A00945107 /* YSHYConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54697561EA06B4A00945107 /* YSHYConfig.swift */; };
+		E54997B91E9E24EE00040791 /* RootTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54997B81E9E24EE00040791 /* RootTabViewController.swift */; };
+		E54997BB1E9E254A00040791 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54997BA1E9E254A00040791 /* AccountViewController.swift */; };
+		E54997BE1E9E265C00040791 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54997BD1E9E265C00040791 /* BaseViewController.swift */; };
+		E54997C01E9E32F400040791 /* FriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54997BF1E9E32F400040791 /* FriendViewController.swift */; };
+		E54997C21E9E335600040791 /* MyMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54997C11E9E335600040791 /* MyMusicViewController.swift */; };
+		E54997C51E9E339A00040791 /* FindMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54997C41E9E339A00040791 /* FindMusicViewController.swift */; };
+		E55404891E9F77E600A6844F /* BaseNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55404881E9F77E600A6844F /* BaseNavViewController.swift */; };
+		E56011FE1E57E70700A039A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56011FD1E57E70700A039A6 /* AppDelegate.swift */; };
+		E56012001E57E70700A039A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56011FF1E57E70700A039A6 /* ViewController.swift */; };
+		E56012031E57E70700A039A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E56012011E57E70700A039A6 /* Main.storyboard */; };
+		E56012051E57E70700A039A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E56012041E57E70700A039A6 /* Assets.xcassets */; };
+		E56012081E57E70700A039A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E56012061E57E70700A039A6 /* LaunchScreen.storyboard */; };
+		E56012131E57E70700A039A6 /* YSHYSwiftMusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56012121E57E70700A039A6 /* YSHYSwiftMusicTests.swift */; };
+		E560121E1E57E70700A039A6 /* YSHYSwiftMusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E560121D1E57E70700A039A6 /* YSHYSwiftMusicUITests.swift */; };
+		E5D445491E9F8A4300891C45 /* YSHYSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D445481E9F8A4300891C45 /* YSHYSearchView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E560120F1E57E70700A039A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E56011F21E57E70700A039A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E56011F91E57E70700A039A6;
+			remoteInfo = YSHYSwiftMusic;
+		};
+		E560121A1E57E70700A039A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E56011F21E57E70700A039A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E56011F91E57E70700A039A6;
+			remoteInfo = YSHYSwiftMusic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		691C3D20E873F561B0F58F83 /* libPods-YSHYSwiftMusic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YSHYSwiftMusic.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B311223579F5DB3B709874E0 /* Pods-YSHYSwiftMusic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YSHYSwiftMusic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YSHYSwiftMusic/Pods-YSHYSwiftMusic.debug.xcconfig"; sourceTree = "<group>"; };
+		DE235454AAA66E48E8F6C39B /* Pods-YSHYSwiftMusic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YSHYSwiftMusic.release.xcconfig"; path = "Pods/Target Support Files/Pods-YSHYSwiftMusic/Pods-YSHYSwiftMusic.release.xcconfig"; sourceTree = "<group>"; };
+		E546974E1EA05DDF00945107 /* PlayMusicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayMusicViewController.swift; sourceTree = "<group>"; };
+		E54697501EA05F8E00945107 /* YSHYFragmentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSHYFragmentView.swift; sourceTree = "<group>"; };
+		E54697561EA06B4A00945107 /* YSHYConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSHYConfig.swift; sourceTree = "<group>"; };
+		E54997B81E9E24EE00040791 /* RootTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootTabViewController.swift; sourceTree = "<group>"; };
+		E54997BA1E9E254A00040791 /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		E54997BD1E9E265C00040791 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		E54997BF1E9E32F400040791 /* FriendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendViewController.swift; sourceTree = "<group>"; };
+		E54997C11E9E335600040791 /* MyMusicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyMusicViewController.swift; sourceTree = "<group>"; };
+		E54997C41E9E339A00040791 /* FindMusicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindMusicViewController.swift; sourceTree = "<group>"; };
+		E55404881E9F77E600A6844F /* BaseNavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavViewController.swift; sourceTree = "<group>"; };
+		E56011FA1E57E70700A039A6 /* YSHYSwiftMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YSHYSwiftMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E56011FD1E57E70700A039A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E56011FF1E57E70700A039A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E56012021E57E70700A039A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E56012041E57E70700A039A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E56012071E57E70700A039A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E56012091E57E70700A039A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E560120E1E57E70700A039A6 /* YSHYSwiftMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YSHYSwiftMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E56012121E57E70700A039A6 /* YSHYSwiftMusicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YSHYSwiftMusicTests.swift; sourceTree = "<group>"; };
+		E56012141E57E70700A039A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E56012191E57E70700A039A6 /* YSHYSwiftMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YSHYSwiftMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E560121D1E57E70700A039A6 /* YSHYSwiftMusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YSHYSwiftMusicUITests.swift; sourceTree = "<group>"; };
+		E560121F1E57E70700A039A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5D445481E9F8A4300891C45 /* YSHYSearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSHYSearchView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E56011F71E57E70700A039A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BF2250518E02C5BB77E7B73 /* libPods-YSHYSwiftMusic.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E560120B1E57E70700A039A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E56012161E57E70700A039A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12C13E346EDBC07BD3A5FAF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				691C3D20E873F561B0F58F83 /* libPods-YSHYSwiftMusic.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AFBA6036E9DCF45FCCE44D95 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B311223579F5DB3B709874E0 /* Pods-YSHYSwiftMusic.debug.xcconfig */,
+				DE235454AAA66E48E8F6C39B /* Pods-YSHYSwiftMusic.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E546974D1EA05DBD00945107 /* PlayController */ = {
+			isa = PBXGroup;
+			children = (
+				E546974E1EA05DDF00945107 /* PlayMusicViewController.swift */,
+			);
+			path = PlayController;
+			sourceTree = "<group>";
+		};
+		E54697521EA0634C00945107 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				E54697561EA06B4A00945107 /* YSHYConfig.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		E54997B31E9E247300040791 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				E54997BA1E9E254A00040791 /* AccountViewController.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		E54997B41E9E247300040791 /* Friend */ = {
+			isa = PBXGroup;
+			children = (
+				E54997BF1E9E32F400040791 /* FriendViewController.swift */,
+			);
+			path = Friend;
+			sourceTree = "<group>";
+		};
+		E54997B51E9E247300040791 /* MyMusic */ = {
+			isa = PBXGroup;
+			children = (
+				E54997C11E9E335600040791 /* MyMusicViewController.swift */,
+			);
+			path = MyMusic;
+			sourceTree = "<group>";
+		};
+		E54997B71E9E247B00040791 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				E56011FD1E57E70700A039A6 /* AppDelegate.swift */,
+				E56011FF1E57E70700A039A6 /* ViewController.swift */,
+				E56012011E57E70700A039A6 /* Main.storyboard */,
+				E56012041E57E70700A039A6 /* Assets.xcassets */,
+				E56012061E57E70700A039A6 /* LaunchScreen.storyboard */,
+				E56012091E57E70700A039A6 /* Info.plist */,
+				E54997B81E9E24EE00040791 /* RootTabViewController.swift */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		E54997BC1E9E258600040791 /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				E54997BD1E9E265C00040791 /* BaseViewController.swift */,
+				E55404881E9F77E600A6844F /* BaseNavViewController.swift */,
+			);
+			path = BaseController;
+			sourceTree = "<group>";
+		};
+		E54997C31E9E338600040791 /* FindMusic */ = {
+			isa = PBXGroup;
+			children = (
+				E54997C41E9E339A00040791 /* FindMusicViewController.swift */,
+			);
+			path = FindMusic;
+			sourceTree = "<group>";
+		};
+		E56011F11E57E70700A039A6 = {
+			isa = PBXGroup;
+			children = (
+				E56011FC1E57E70700A039A6 /* YSHYSwiftMusic */,
+				E56012111E57E70700A039A6 /* YSHYSwiftMusicTests */,
+				E560121C1E57E70700A039A6 /* YSHYSwiftMusicUITests */,
+				E56011FB1E57E70700A039A6 /* Products */,
+				AFBA6036E9DCF45FCCE44D95 /* Pods */,
+				12C13E346EDBC07BD3A5FAF5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E56011FB1E57E70700A039A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E56011FA1E57E70700A039A6 /* YSHYSwiftMusic.app */,
+				E560120E1E57E70700A039A6 /* YSHYSwiftMusicTests.xctest */,
+				E56012191E57E70700A039A6 /* YSHYSwiftMusicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E56011FC1E57E70700A039A6 /* YSHYSwiftMusic */ = {
+			isa = PBXGroup;
+			children = (
+				E54697521EA0634C00945107 /* Config */,
+				E5D445471E9F8A2A00891C45 /* CustomView */,
+				E546974D1EA05DBD00945107 /* PlayController */,
+				E54997C31E9E338600040791 /* FindMusic */,
+				E54997B31E9E247300040791 /* Account */,
+				E54997B41E9E247300040791 /* Friend */,
+				E54997B51E9E247300040791 /* MyMusic */,
+				E54997BC1E9E258600040791 /* BaseController */,
+				E54997B71E9E247B00040791 /* Other */,
+			);
+			path = YSHYSwiftMusic;
+			sourceTree = "<group>";
+		};
+		E56012111E57E70700A039A6 /* YSHYSwiftMusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				E56012121E57E70700A039A6 /* YSHYSwiftMusicTests.swift */,
+				E56012141E57E70700A039A6 /* Info.plist */,
+			);
+			path = YSHYSwiftMusicTests;
+			sourceTree = "<group>";
+		};
+		E560121C1E57E70700A039A6 /* YSHYSwiftMusicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E560121D1E57E70700A039A6 /* YSHYSwiftMusicUITests.swift */,
+				E560121F1E57E70700A039A6 /* Info.plist */,
+			);
+			path = YSHYSwiftMusicUITests;
+			sourceTree = "<group>";
+		};
+		E5D445471E9F8A2A00891C45 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				E5D445481E9F8A4300891C45 /* YSHYSearchView.swift */,
+				E54697501EA05F8E00945107 /* YSHYFragmentView.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E56011F91E57E70700A039A6 /* YSHYSwiftMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E56012221E57E70700A039A6 /* Build configuration list for PBXNativeTarget "YSHYSwiftMusic" */;
+			buildPhases = (
+				6AA31B08C721524033402998 /* [CP] Check Pods Manifest.lock */,
+				E56011F61E57E70700A039A6 /* Sources */,
+				E56011F71E57E70700A039A6 /* Frameworks */,
+				E56011F81E57E70700A039A6 /* Resources */,
+				913AB9D395BFC4A5D332E89F /* [CP] Embed Pods Frameworks */,
+				4B7D6F082EED3E90194B2ADE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YSHYSwiftMusic;
+			productName = YSHYSwiftMusic;
+			productReference = E56011FA1E57E70700A039A6 /* YSHYSwiftMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E560120D1E57E70700A039A6 /* YSHYSwiftMusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E56012251E57E70700A039A6 /* Build configuration list for PBXNativeTarget "YSHYSwiftMusicTests" */;
+			buildPhases = (
+				E560120A1E57E70700A039A6 /* Sources */,
+				E560120B1E57E70700A039A6 /* Frameworks */,
+				E560120C1E57E70700A039A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E56012101E57E70700A039A6 /* PBXTargetDependency */,
+			);
+			name = YSHYSwiftMusicTests;
+			productName = YSHYSwiftMusicTests;
+			productReference = E560120E1E57E70700A039A6 /* YSHYSwiftMusicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E56012181E57E70700A039A6 /* YSHYSwiftMusicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E56012281E57E70700A039A6 /* Build configuration list for PBXNativeTarget "YSHYSwiftMusicUITests" */;
+			buildPhases = (
+				E56012151E57E70700A039A6 /* Sources */,
+				E56012161E57E70700A039A6 /* Frameworks */,
+				E56012171E57E70700A039A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E560121B1E57E70700A039A6 /* PBXTargetDependency */,
+			);
+			name = YSHYSwiftMusicUITests;
+			productName = YSHYSwiftMusicUITests;
+			productReference = E56012191E57E70700A039A6 /* YSHYSwiftMusicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E56011F21E57E70700A039A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = yangshuyaun;
+				TargetAttributes = {
+					E56011F91E57E70700A039A6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = YT3528CMQJ;
+						ProvisioningStyle = Automatic;
+					};
+					E560120D1E57E70700A039A6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CV6BXNLMXG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E56011F91E57E70700A039A6;
+					};
+					E56012181E57E70700A039A6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CV6BXNLMXG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E56011F91E57E70700A039A6;
+					};
+				};
+			};
+			buildConfigurationList = E56011F51E57E70700A039A6 /* Build configuration list for PBXProject "YSHYSwiftMusic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E56011F11E57E70700A039A6;
+			productRefGroup = E56011FB1E57E70700A039A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E56011F91E57E70700A039A6 /* YSHYSwiftMusic */,
+				E560120D1E57E70700A039A6 /* YSHYSwiftMusicTests */,
+				E56012181E57E70700A039A6 /* YSHYSwiftMusicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E56011F81E57E70700A039A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E56012081E57E70700A039A6 /* LaunchScreen.storyboard in Resources */,
+				E56012051E57E70700A039A6 /* Assets.xcassets in Resources */,
+				E56012031E57E70700A039A6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E560120C1E57E70700A039A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E56012171E57E70700A039A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B7D6F082EED3E90194B2ADE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YSHYSwiftMusic/Pods-YSHYSwiftMusic-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AA31B08C721524033402998 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		913AB9D395BFC4A5D332E89F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YSHYSwiftMusic/Pods-YSHYSwiftMusic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E56011F61E57E70700A039A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E54997C01E9E32F400040791 /* FriendViewController.swift in Sources */,
+				E54997C51E9E339A00040791 /* FindMusicViewController.swift in Sources */,
+				E55404891E9F77E600A6844F /* BaseNavViewController.swift in Sources */,
+				E54997BE1E9E265C00040791 /* BaseViewController.swift in Sources */,
+				E546974F1EA05DDF00945107 /* PlayMusicViewController.swift in Sources */,
+				E54697511EA05F8E00945107 /* YSHYFragmentView.swift in Sources */,
+				E54997B91E9E24EE00040791 /* RootTabViewController.swift in Sources */,
+				E56012001E57E70700A039A6 /* ViewController.swift in Sources */,
+				E54997C21E9E335600040791 /* MyMusicViewController.swift in Sources */,
+				E5D445491E9F8A4300891C45 /* YSHYSearchView.swift in Sources */,
+				E54697571EA06B4A00945107 /* YSHYConfig.swift in Sources */,
+				E54997BB1E9E254A00040791 /* AccountViewController.swift in Sources */,
+				E56011FE1E57E70700A039A6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E560120A1E57E70700A039A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E56012131E57E70700A039A6 /* YSHYSwiftMusicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E56012151E57E70700A039A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E560121E1E57E70700A039A6 /* YSHYSwiftMusicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E56012101E57E70700A039A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E56011F91E57E70700A039A6 /* YSHYSwiftMusic */;
+			targetProxy = E560120F1E57E70700A039A6 /* PBXContainerItemProxy */;
+		};
+		E560121B1E57E70700A039A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E56011F91E57E70700A039A6 /* YSHYSwiftMusic */;
+			targetProxy = E560121A1E57E70700A039A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E56012011E57E70700A039A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E56012021E57E70700A039A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E56012061E57E70700A039A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E56012071E57E70700A039A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E56012201E57E70700A039A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E56012211E57E70700A039A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E56012231E57E70700A039A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B311223579F5DB3B709874E0 /* Pods-YSHYSwiftMusic.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				EXECUTABLE_PREFIX = "";
+				FRAMEWORK_SEARCH_PATHS = "";
+				INFOPLIST_FILE = YSHYSwiftMusic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[arch=*]" = "";
+				PRODUCT_BUNDLE_IDENTIFIER = YSHY.SwiftMusicaaa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E56012241E57E70700A039A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE235454AAA66E48E8F6C39B /* Pods-YSHYSwiftMusic.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				EXECUTABLE_PREFIX = "";
+				FRAMEWORK_SEARCH_PATHS = "";
+				INFOPLIST_FILE = YSHYSwiftMusic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[arch=*]" = "";
+				PRODUCT_BUNDLE_IDENTIFIER = YSHY.SwiftMusicaaa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E56012261E57E70700A039A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CV6BXNLMXG;
+				INFOPLIST_FILE = YSHYSwiftMusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YSHY.YSHYSwiftMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YSHYSwiftMusic.app/YSHYSwiftMusic";
+			};
+			name = Debug;
+		};
+		E56012271E57E70700A039A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CV6BXNLMXG;
+				INFOPLIST_FILE = YSHYSwiftMusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YSHY.YSHYSwiftMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YSHYSwiftMusic.app/YSHYSwiftMusic";
+			};
+			name = Release;
+		};
+		E56012291E57E70700A039A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = CV6BXNLMXG;
+				INFOPLIST_FILE = YSHYSwiftMusicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YSHY.YSHYSwiftMusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = YSHYSwiftMusic;
+			};
+			name = Debug;
+		};
+		E560122A1E57E70700A039A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = CV6BXNLMXG;
+				INFOPLIST_FILE = YSHYSwiftMusicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YSHY.YSHYSwiftMusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = YSHYSwiftMusic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E56011F51E57E70700A039A6 /* Build configuration list for PBXProject "YSHYSwiftMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E56012201E57E70700A039A6 /* Debug */,
+				E56012211E57E70700A039A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E56012221E57E70700A039A6 /* Build configuration list for PBXNativeTarget "YSHYSwiftMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E56012231E57E70700A039A6 /* Debug */,
+				E56012241E57E70700A039A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E56012251E57E70700A039A6 /* Build configuration list for PBXNativeTarget "YSHYSwiftMusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E56012261E57E70700A039A6 /* Debug */,
+				E56012271E57E70700A039A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E56012281E57E70700A039A6 /* Build configuration list for PBXNativeTarget "YSHYSwiftMusicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E56012291E57E70700A039A6 /* Debug */,
+				E560122A1E57E70700A039A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E56011F21E57E70700A039A6 /* Project object */;
+}
